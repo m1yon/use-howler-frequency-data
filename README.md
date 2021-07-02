@@ -1,6 +1,6 @@
 # howler-frequency-data
 
-Get byte frequency data from any amount of Howler objects using the Web Audio API.
+Get byte frequency data from any amount of (Howler.js)[https://github.com/goldfire/howler.js#documentation] objects using the Web Audio API.
 
 ## 🎉 Features
 

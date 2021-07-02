@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -38,6 +38,7 @@
     "trailingComma": "es5"
   },
   "name": "howler-frequency-data",
+  "description": "Get byte frequency data from any amount of Howler.js objects using the Web Audio API.",
   "author": "Michael Lyon",
   "module": "dist/howler-frequency-data.esm.js",
   "size-limit": [
