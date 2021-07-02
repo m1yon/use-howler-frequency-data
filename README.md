@@ -13,14 +13,14 @@ Get byte frequency data from any amount of [Howler.js](https://github.com/goldfi
 Install howler-frequency-data with npm
 
 ```bash
-  npm install howler-frequency-data
+npm install howler-frequency-data
 ```
 
 ## 🎓 Usage/Examples
 
 ```tsx
-import { Howl } from 'howler';
-import { useHowlerFrequencyData } from 'howler-frequency-data';
+import { Howl } from 'howler'
+import { useHowlerFrequencyData } from 'howler-frequency-data'
 
 const App = () => {
   const frequencyData = useHowlerFrequencyData({
@@ -32,7 +32,7 @@ const App = () => {
         src: ['audio/audio-sample2.mp3'],
       }),
     ],
-  });
+  })
 
   // frequency data for audio-sample1.mp3 (updates real-time once audio is played)
   // frequencyData[0] = [0, 0, 0, 0, 0....]
@@ -42,8 +42,8 @@ const App = () => {
 
   // throw in some logic to write frequencyData to your canvas element
 
-  return <canvas />;
-};
+  return <canvas />
+}
 ```
 
 ## 🔊 Demo

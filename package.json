@@ -1,5 +1,5 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -33,9 +33,9 @@
   },
   "prettier": {
     "printWidth": 80,
-    "semi": true,
+    "semi": false,
     "singleQuote": true,
-    "trailingComma": "es5"
+    "trailingComma": "all"
   },
   "name": "howler-frequency-data",
   "description": "Get byte frequency data from any amount of Howler.js objects using the Web Audio API.",
