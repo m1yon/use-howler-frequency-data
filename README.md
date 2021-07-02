@@ -4,13 +4,13 @@ Get byte frequency data from any amount of [Howler.js](https://github.com/goldfi
 
 ## 🎉 Features
 
-- React custom hook to get individual byte frequency data for any amount of Howls you send
+- React custom hook to get individual byte frequency data from any amount of Howls you send
 - requestAnimationFrame callback support
 - All written in TypeScript
 
 ## 🛠 Installation
 
-Install howler-frequency-data with npm
+Install howler-frequency-data via npm:
 
 ```bash
 npm install howler-frequency-data
