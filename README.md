@@ -20,7 +20,7 @@ Install howler-frequency-data with npm
 
 ```tsx
 import { Howl } from 'howler';
-import { useHowlerFrequencyData } from 'use-howler-frequency-data';
+import { useHowlerFrequencyData } from 'howler-frequency-data';
 
 const App = () => {
   const frequencyData = useHowlerFrequencyData({
