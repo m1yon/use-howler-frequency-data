@@ -1,26 +1,26 @@
-# howler-frequency-data
+# use-howler-frequency-data
 
-Get byte frequency data from any amount of [Howler.js](https://github.com/goldfire/howler.js#documentation) objects using the Web Audio API.
+React custom hook to get byte frequency data from any amount of [Howler.js](https://github.com/goldfire/howler.js#documentation) objects using the Web Audio API.
 
 ## 🎉 Features
 
-- React custom hook to get individual byte frequency data from any amount of Howls you send
+- Get individual byte frequency data from multiple Howler.js objects
 - requestAnimationFrame callback support
 - All written in TypeScript
 
 ## 🛠 Installation
 
-Install howler-frequency-data via npm:
+Install use-howler-frequency-data via npm:
 
 ```bash
-npm install howler-frequency-data
+npm install use-howler-frequency-data
 ```
 
 ## 🎓 Usage/Examples
 
 ```tsx
 import { Howl } from 'howler'
-import { useHowlerFrequencyData } from 'howler-frequency-data'
+import { useHowlerFrequencyData } from 'use-howler-frequency-data'
 
 const App = () => {
   const frequencyData = useHowlerFrequencyData({
@@ -48,7 +48,7 @@ const App = () => {
 
 ## 🔊 Demo
 
-A sample project can be found inside the repo under `/example`. It's a simple audio visualizer utilizing howler-frequency-data in combination with the canvas API.
+A sample project can be found inside the repo under `/example`. It's a simple audio visualizer utilizing use-howler-frequency-data in combination with the canvas API.
 
 ## 🦸‍♂️ Maintainers
 

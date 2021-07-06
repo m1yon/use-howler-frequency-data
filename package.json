@@ -1,5 +1,5 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/m1yon/howler-frequency-data"
+    "url": "https://github.com/m1yon/use-howler-frequency-data"
   },
   "scripts": {
     "start": "tsdx watch",
@@ -37,17 +37,17 @@
     "singleQuote": true,
     "trailingComma": "all"
   },
-  "name": "howler-frequency-data",
+  "name": "use-howler-frequency-data",
   "description": "Get byte frequency data from any amount of Howler.js objects using the Web Audio API.",
   "author": "Michael Lyon",
-  "module": "dist/howler-frequency-data.esm.js",
+  "module": "dist/use-howler-frequency-data.esm.js",
   "size-limit": [
     {
-      "path": "dist/howler-frequency-data.cjs.production.min.js",
+      "path": "dist/use-howler-frequency-data.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/howler-frequency-data.esm.js",
+      "path": "dist/use-howler-frequency-data.esm.js",
       "limit": "10 KB"
     }
   ],
