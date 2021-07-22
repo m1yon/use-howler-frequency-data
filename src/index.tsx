@@ -14,15 +14,18 @@ export const useHowlerFrequencyData = ({
   howls,
   onRafLoop,
 }: useHowlerFrequencyDataArgs) => {
-  // @ts-expect-error accessing hidden attributes
-  const audioNodes: AudioNode[] = howls.map(audio => audio._sounds[0]._node)
+  const audioNodes: AudioNode[] = useMemo(
+    // @ts-expect-error accessing hidden attributes
+    () => howls.map(audio => audio._sounds[0]._node),
+    [howls],
+  )
 
   // force Howler to initialize an AudioContext
   if (!Howler.ctx) Howler.mute(false)
 
   // create an analyser node in the Howler WebAudio context
   const audioAnalysers = useMemo(
-    () => audioNodes.map(audioNodes => audioNodes.context.createAnalyser()),
+    () => audioNodes.map(audioNode => audioNode.context.createAnalyser()),
     [audioNodes],
   )
 
